@@ -1,0 +1,819 @@
+{
+    // 使用 IntelliSense 了解相关属性。 
+    // 悬停以查看现有属性的描述。
+    // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - TestStop",
+            "request": "launch",
+            "mainClass": "Thread.state.TestStop",
+            "projectName": "JavaSE_64e5e8c7"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Test01<JavaSE_64e5e8c7>",
+            "request": "launch",
+            "mainClass": "Thread.Lambda.Test01",
+            "projectName": "JavaSE_64e5e8c7"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Test02<JavaSE_64e5e8c7>",
+            "request": "launch",
+            "mainClass": "Thread.Lambda.Test02",
+            "projectName": "JavaSE_64e5e8c7"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-StaticProxy<JavaSE_64e5e8c7>",
+            "request": "launch",
+            "mainClass": "Thread.StaticProxy",
+            "projectName": "JavaSE_64e5e8c7"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-TestThread01<JavaSE_64e5e8c7>",
+            "request": "launch",
+            "mainClass": "Thread.TestThread01",
+            "projectName": "JavaSE_64e5e8c7"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-TestThread02<JavaSE_64e5e8c7>",
+            "request": "launch",
+            "mainClass": "Thread.TestThread02",
+            "projectName": "JavaSE_64e5e8c7"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-TestThread03<JavaSE_64e5e8c7>",
+            "request": "launch",
+            "mainClass": "Thread.TestThread03",
+            "projectName": "JavaSE_64e5e8c7"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-TestThread04<JavaSE_64e5e8c7>",
+            "request": "launch",
+            "mainClass": "Thread.TestThread04",
+            "projectName": "JavaSE_64e5e8c7"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-TestThread05<JavaSE_64e5e8c7>",
+            "request": "launch",
+            "mainClass": "Thread.TestThread05",
+            "projectName": "JavaSE_64e5e8c7"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-不可变字符串<JavaSE_64e5e8c7>",
+            "request": "launch",
+            "mainClass": "algo.字符串.不可变字符串",
+            "projectName": "JavaSE_64e5e8c7"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-二进制求和<JavaSE_64e5e8c7>",
+            "request": "launch",
+            "mainClass": "algo.字符串.二进制求和",
+            "projectName": "JavaSE_64e5e8c7"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-实现strStr<JavaSE_64e5e8c7>",
+            "request": "launch",
+            "mainClass": "algo.字符串.实现strStr",
+            "projectName": "JavaSE_64e5e8c7"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-最长公共前缀<JavaSE_64e5e8c7>",
+            "request": "launch",
+            "mainClass": "algo.字符串.最长公共前缀",
+            "projectName": "JavaSE_64e5e8c7"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-二维数组<JavaSE_64e5e8c7>",
+            "request": "launch",
+            "mainClass": "algo.数组.二维数组",
+            "projectName": "JavaSE_64e5e8c7"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-加一<JavaSE_64e5e8c7>",
+            "request": "launch",
+            "mainClass": "algo.数组.加一",
+            "projectName": "JavaSE_64e5e8c7"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-动态数组<JavaSE_64e5e8c7>",
+            "request": "launch",
+            "mainClass": "algo.数组.动态数组",
+            "projectName": "JavaSE_64e5e8c7"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-对角线遍历<JavaSE_64e5e8c7>",
+            "request": "launch",
+            "mainClass": "algo.数组.对角线遍历",
+            "projectName": "JavaSE_64e5e8c7"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-寻找数组的中心索引<JavaSE_64e5e8c7>",
+            "request": "launch",
+            "mainClass": "algo.数组.寻找数组的中心索引",
+            "projectName": "JavaSE_64e5e8c7"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-旋转矩阵<JavaSE_64e5e8c7>",
+            "request": "launch",
+            "mainClass": "algo.数组.旋转矩阵",
+            "projectName": "JavaSE_64e5e8c7"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-杨辉三角<JavaSE_64e5e8c7>",
+            "request": "launch",
+            "mainClass": "algo.数组.杨辉三角",
+            "projectName": "JavaSE_64e5e8c7"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-至少是其他数字两倍的最大数<JavaSE_64e5e8c7>",
+            "request": "launch",
+            "mainClass": "algo.数组.至少是其他数字两倍的最大数",
+            "projectName": "JavaSE_64e5e8c7"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-螺旋矩阵<JavaSE_64e5e8c7>",
+            "request": "launch",
+            "mainClass": "algo.数组.螺旋矩阵",
+            "projectName": "JavaSE_64e5e8c7"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-静态数组<JavaSE_64e5e8c7>",
+            "request": "launch",
+            "mainClass": "algo.数组.静态数组",
+            "projectName": "JavaSE_64e5e8c7"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-数组中的字符串匹配<JavaSE_64e5e8c7>",
+            "request": "launch",
+            "mainClass": "algo.比赛.数组中的字符串匹配",
+            "projectName": "JavaSE_64e5e8c7"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-GameUI<JavaSE_64e5e8c7>",
+            "request": "launch",
+            "mainClass": "game.wuziqi.java.GameUI",
+            "projectName": "JavaSE_64e5e8c7"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Demo01<JavaSE_64e5e8c7>",
+            "request": "launch",
+            "mainClass": "gui.swing.Demo01",
+            "projectName": "JavaSE_64e5e8c7"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Demo02<JavaSE_64e5e8c7>",
+            "request": "launch",
+            "mainClass": "gui.swing.Demo02",
+            "projectName": "JavaSE_64e5e8c7"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-IconJFrame<JavaSE_64e5e8c7>",
+            "request": "launch",
+            "mainClass": "gui.swing.IconJFrame",
+            "projectName": "JavaSE_64e5e8c7"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-JScrollDemo<JavaSE_64e5e8c7>",
+            "request": "launch",
+            "mainClass": "gui.swing.JScrollDemo",
+            "projectName": "JavaSE_64e5e8c7"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Test01<JavaSE_64e5e8c7>(1)",
+            "request": "launch",
+            "mainClass": "gui.test.Test01",
+            "projectName": "JavaSE_64e5e8c7"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Test02<JavaSE_64e5e8c7>(1)",
+            "request": "launch",
+            "mainClass": "gui.test.Test02",
+            "projectName": "JavaSE_64e5e8c7"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Test02Up<JavaSE_64e5e8c7>",
+            "request": "launch",
+            "mainClass": "gui.test.Test02Up",
+            "projectName": "JavaSE_64e5e8c7"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-GameStart<JavaSE_64e5e8c7>",
+            "request": "launch",
+            "mainClass": "gui.test.贪吃蛇.GameStart",
+            "projectName": "JavaSE_64e5e8c7"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-MyFrame<JavaSE_64e5e8c7>",
+            "request": "launch",
+            "mainClass": "gui.容器.MyFrame",
+            "projectName": "JavaSE_64e5e8c7"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-MyPanel<JavaSE_64e5e8c7>",
+            "request": "launch",
+            "mainClass": "gui.容器.MyPanel",
+            "projectName": "JavaSE_64e5e8c7"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Test<JavaSE_64e5e8c7>",
+            "request": "launch",
+            "mainClass": "gui.布局管理.Test",
+            "projectName": "JavaSE_64e5e8c7"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-东西南北中<JavaSE_64e5e8c7>",
+            "request": "launch",
+            "mainClass": "gui.布局管理.东西南北中",
+            "projectName": "JavaSE_64e5e8c7"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-流式布局<JavaSE_64e5e8c7>",
+            "request": "launch",
+            "mainClass": "gui.布局管理.流式布局",
+            "projectName": "JavaSE_64e5e8c7"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-表格布局<JavaSE_64e5e8c7>",
+            "request": "launch",
+            "mainClass": "gui.布局管理.表格布局",
+            "projectName": "JavaSE_64e5e8c7"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Demo<JavaSE_64e5e8c7>",
+            "request": "launch",
+            "mainClass": "gui.监听器.Demo",
+            "projectName": "JavaSE_64e5e8c7"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Demo01<JavaSE_64e5e8c7>(1)",
+            "request": "launch",
+            "mainClass": "gui.监听器.Demo01",
+            "projectName": "JavaSE_64e5e8c7"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Demo02<JavaSE_64e5e8c7>(1)",
+            "request": "launch",
+            "mainClass": "gui.监听器.Demo02",
+            "projectName": "JavaSE_64e5e8c7"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-MouseListener<JavaSE_64e5e8c7>",
+            "request": "launch",
+            "mainClass": "gui.监听器.MouseListener",
+            "projectName": "JavaSE_64e5e8c7"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-TextListener<JavaSE_64e5e8c7>",
+            "request": "launch",
+            "mainClass": "gui.监听器.TextListener",
+            "projectName": "JavaSE_64e5e8c7"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Test<JavaSE_64e5e8c7>(1)",
+            "request": "launch",
+            "mainClass": "houseWork.final关键词的应用.Test",
+            "projectName": "JavaSE_64e5e8c7"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Test1<JavaSE_64e5e8c7>",
+            "request": "launch",
+            "mainClass": "houseWork.final关键词的应用.Test1",
+            "projectName": "JavaSE_64e5e8c7"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-A<JavaSE_64e5e8c7>",
+            "request": "launch",
+            "mainClass": "houseWork.写一个print接口.A",
+            "projectName": "JavaSE_64e5e8c7"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Demo01<JavaSE_64e5e8c7>(2)",
+            "request": "launch",
+            "mainClass": "houseWork.包装类.Demo01",
+            "projectName": "JavaSE_64e5e8c7"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Test<JavaSE_64e5e8c7>(2)",
+            "request": "launch",
+            "mainClass": "houseWork.单例类.Test",
+            "projectName": "JavaSE_64e5e8c7"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Gobang<JavaSE_64e5e8c7>",
+            "request": "launch",
+            "mainClass": "houseWork.处理游戏异常.Gobang",
+            "projectName": "JavaSE_64e5e8c7"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Shape<JavaSE_64e5e8c7>",
+            "request": "launch",
+            "mainClass": "houseWork.多态.Shape",
+            "projectName": "JavaSE_64e5e8c7"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Test<JavaSE_64e5e8c7>(3)",
+            "request": "launch",
+            "mainClass": "houseWork.抽象类和接口理解.Test",
+            "projectName": "JavaSE_64e5e8c7"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Test1<JavaSE_64e5e8c7>(1)",
+            "request": "launch",
+            "mainClass": "houseWork.抽象类和接口理解.Test1",
+            "projectName": "JavaSE_64e5e8c7"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-求三角形面积<JavaSE_64e5e8c7>",
+            "request": "launch",
+            "mainClass": "houseWork.求三角形面积.求三角形面积",
+            "projectName": "JavaSE_64e5e8c7"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Demo01<JavaSE_64e5e8c7>(3)",
+            "request": "launch",
+            "mainClass": "javaSE.io.Demo01",
+            "projectName": "JavaSE_64e5e8c7"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Demo02<JavaSE_64e5e8c7>(2)",
+            "request": "launch",
+            "mainClass": "javaSE.io.Demo02",
+            "projectName": "JavaSE_64e5e8c7"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Demo03<JavaSE_64e5e8c7>",
+            "request": "launch",
+            "mainClass": "javaSE.io.Demo03",
+            "projectName": "JavaSE_64e5e8c7"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Demo04<JavaSE_64e5e8c7>",
+            "request": "launch",
+            "mainClass": "javaSE.io.Demo04",
+            "projectName": "JavaSE_64e5e8c7"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Demo<JavaSE_64e5e8c7>(1)",
+            "request": "launch",
+            "mainClass": "javaSE.oop.Demo.Demo",
+            "projectName": "JavaSE_64e5e8c7"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-SuperDemo01<JavaSE_64e5e8c7>",
+            "request": "launch",
+            "mainClass": "javaSE.oop.多态.SuperDemo01",
+            "projectName": "JavaSE_64e5e8c7"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Demo01<JavaSE_64e5e8c7>(4)",
+            "request": "launch",
+            "mainClass": "javaSE.oop.异常.Demo01",
+            "projectName": "JavaSE_64e5e8c7"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Demo02<JavaSE_64e5e8c7>(3)",
+            "request": "launch",
+            "mainClass": "javaSE.oop.异常.Demo02",
+            "projectName": "JavaSE_64e5e8c7"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Demo03<JavaSE_64e5e8c7>(1)",
+            "request": "launch",
+            "mainClass": "javaSE.oop.异常.Demo03",
+            "projectName": "JavaSE_64e5e8c7"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Demo01<JavaSE_64e5e8c7>(5)",
+            "request": "launch",
+            "mainClass": "javaSE.oop.方法.Demo01",
+            "projectName": "JavaSE_64e5e8c7"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Demo02<JavaSE_64e5e8c7>(4)",
+            "request": "launch",
+            "mainClass": "javaSE.oop.方法.Demo02",
+            "projectName": "JavaSE_64e5e8c7"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Demo03<JavaSE_64e5e8c7>(2)",
+            "request": "launch",
+            "mainClass": "javaSE.oop.方法.Demo03",
+            "projectName": "JavaSE_64e5e8c7"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Demo04<JavaSE_64e5e8c7>(1)",
+            "request": "launch",
+            "mainClass": "javaSE.oop.方法.Demo04",
+            "projectName": "JavaSE_64e5e8c7"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ArrayDemo01<JavaSE_64e5e8c7>",
+            "request": "launch",
+            "mainClass": "javaSE.zxl.array.ArrayDemo01",
+            "projectName": "JavaSE_64e5e8c7"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ArrayDemo02<JavaSE_64e5e8c7>",
+            "request": "launch",
+            "mainClass": "javaSE.zxl.array.ArrayDemo02",
+            "projectName": "JavaSE_64e5e8c7"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ArrayDemo03<JavaSE_64e5e8c7>",
+            "request": "launch",
+            "mainClass": "javaSE.zxl.array.ArrayDemo03",
+            "projectName": "JavaSE_64e5e8c7"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ArrayDemo04<JavaSE_64e5e8c7>",
+            "request": "launch",
+            "mainClass": "javaSE.zxl.array.ArrayDemo04",
+            "projectName": "JavaSE_64e5e8c7"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Demo05<JavaSE_64e5e8c7>",
+            "request": "launch",
+            "mainClass": "javaSE.zxl.array.Demo05",
+            "projectName": "JavaSE_64e5e8c7"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Demo06<JavaSE_64e5e8c7>",
+            "request": "launch",
+            "mainClass": "javaSE.zxl.array.Demo06",
+            "projectName": "JavaSE_64e5e8c7"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-稀疏数组<JavaSE_64e5e8c7>",
+            "request": "launch",
+            "mainClass": "javaSE.zxl.array.稀疏数组",
+            "projectName": "JavaSE_64e5e8c7"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-变量类型<JavaSE_64e5e8c7>",
+            "request": "launch",
+            "mainClass": "javaSE.zxl.base.变量类型",
+            "projectName": "JavaSE_64e5e8c7"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-基本数据类型<JavaSE_64e5e8c7>",
+            "request": "launch",
+            "mainClass": "javaSE.zxl.base.基本数据类型",
+            "projectName": "JavaSE_64e5e8c7"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-常量类型<JavaSE_64e5e8c7>",
+            "request": "launch",
+            "mainClass": "javaSE.zxl.base.常量类型",
+            "projectName": "JavaSE_64e5e8c7"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-数据类型拓展问题<JavaSE_64e5e8c7>",
+            "request": "launch",
+            "mainClass": "javaSE.zxl.base.数据类型拓展问题",
+            "projectName": "JavaSE_64e5e8c7"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-类型转换<JavaSE_64e5e8c7>",
+            "request": "launch",
+            "mainClass": "javaSE.zxl.base.类型转换",
+            "projectName": "JavaSE_64e5e8c7"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Demo01<JavaSE_64e5e8c7>(6)",
+            "request": "launch",
+            "mainClass": "javaSE.zxl.method.Demo01",
+            "projectName": "JavaSE_64e5e8c7"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Demo02<JavaSE_64e5e8c7>(5)",
+            "request": "launch",
+            "mainClass": "javaSE.zxl.method.Demo02",
+            "projectName": "JavaSE_64e5e8c7"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-递归<JavaSE_64e5e8c7>",
+            "request": "launch",
+            "mainClass": "javaSE.zxl.method.递归",
+            "projectName": "JavaSE_64e5e8c7"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-运算符<JavaSE_64e5e8c7>",
+            "request": "launch",
+            "mainClass": "javaSE.zxl.operator.运算符",
+            "projectName": "JavaSE_64e5e8c7"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Demo01<JavaSE_64e5e8c7>(7)",
+            "request": "launch",
+            "mainClass": "javaSE.zxl.scanner.Demo01",
+            "projectName": "JavaSE_64e5e8c7"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Demo02<JavaSE_64e5e8c7>(6)",
+            "request": "launch",
+            "mainClass": "javaSE.zxl.scanner.Demo02",
+            "projectName": "JavaSE_64e5e8c7"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Demo03<JavaSE_64e5e8c7>(3)",
+            "request": "launch",
+            "mainClass": "javaSE.zxl.scanner.Demo03",
+            "projectName": "JavaSE_64e5e8c7"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Demo04<JavaSE_64e5e8c7>(2)",
+            "request": "launch",
+            "mainClass": "javaSE.zxl.scanner.Demo04",
+            "projectName": "JavaSE_64e5e8c7"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-冒泡排序<JavaSE_64e5e8c7>",
+            "request": "launch",
+            "mainClass": "javaSE.zxl.sort.冒泡排序",
+            "projectName": "JavaSE_64e5e8c7"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ForDemo03<JavaSE_64e5e8c7>",
+            "request": "launch",
+            "mainClass": "javaSE.zxl.struct.ForDemo03",
+            "projectName": "JavaSE_64e5e8c7"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-IfDemo01<JavaSE_64e5e8c7>",
+            "request": "launch",
+            "mainClass": "javaSE.zxl.struct.IfDemo01",
+            "projectName": "JavaSE_64e5e8c7"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-IfDemo02<JavaSE_64e5e8c7>",
+            "request": "launch",
+            "mainClass": "javaSE.zxl.struct.IfDemo02",
+            "projectName": "JavaSE_64e5e8c7"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-IfDemo03<JavaSE_64e5e8c7>",
+            "request": "launch",
+            "mainClass": "javaSE.zxl.struct.IfDemo03",
+            "projectName": "JavaSE_64e5e8c7"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-SwitchDemo01<JavaSE_64e5e8c7>",
+            "request": "launch",
+            "mainClass": "javaSE.zxl.struct.SwitchDemo01",
+            "projectName": "JavaSE_64e5e8c7"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-SwitchDemo02<JavaSE_64e5e8c7>",
+            "request": "launch",
+            "mainClass": "javaSE.zxl.struct.SwitchDemo02",
+            "projectName": "JavaSE_64e5e8c7"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-TestDemo01<JavaSE_64e5e8c7>",
+            "request": "launch",
+            "mainClass": "javaSE.zxl.struct.TestDemo01",
+            "projectName": "JavaSE_64e5e8c7"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Solution01<JavaSE_64e5e8c7>",
+            "request": "launch",
+            "mainClass": "math.两数求和.Solution01",
+            "projectName": "JavaSE_64e5e8c7"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Solution01<JavaSE_64e5e8c7>(1)",
+            "request": "launch",
+            "mainClass": "math.接雨水42.Solution01",
+            "projectName": "JavaSE_64e5e8c7"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Solution02<JavaSE_64e5e8c7>",
+            "request": "launch",
+            "mainClass": "math.接雨水42.Solution02",
+            "projectName": "JavaSE_64e5e8c7"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Solution<JavaSE_64e5e8c7>",
+            "request": "launch",
+            "mainClass": "math.机器人的运动范围.Solution",
+            "projectName": "JavaSE_64e5e8c7"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Solution01<JavaSE_64e5e8c7>(2)",
+            "request": "launch",
+            "mainClass": "math.机器人的运动范围.Solution01",
+            "projectName": "JavaSE_64e5e8c7"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ArrayMax<JavaSE_64e5e8c7>",
+            "request": "launch",
+            "mainClass": "math.求最大值.ArrayMax",
+            "projectName": "JavaSE_64e5e8c7"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Demo01<JavaSE_64e5e8c7>(8)",
+            "request": "launch",
+            "mainClass": "netWork.Demo01",
+            "projectName": "JavaSE_64e5e8c7"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Demo02<JavaSE_64e5e8c7>(7)",
+            "request": "launch",
+            "mainClass": "netWork.Demo02",
+            "projectName": "JavaSE_64e5e8c7"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-TCPDemo01<JavaSE_64e5e8c7>",
+            "request": "launch",
+            "mainClass": "netWork.TCPDemo01",
+            "projectName": "JavaSE_64e5e8c7"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-TCPDemo02<JavaSE_64e5e8c7>",
+            "request": "launch",
+            "mainClass": "netWork.TCPDemo02",
+            "projectName": "JavaSE_64e5e8c7"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Student<JavaSE_64e5e8c7>",
+            "request": "launch",
+            "mainClass": "netWork.Talk.Student",
+            "projectName": "JavaSE_64e5e8c7"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Teacher<JavaSE_64e5e8c7>",
+            "request": "launch",
+            "mainClass": "netWork.Talk.Teacher",
+            "projectName": "JavaSE_64e5e8c7"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-UDPChat01<JavaSE_64e5e8c7>",
+            "request": "launch",
+            "mainClass": "netWork.UDPChat01",
+            "projectName": "JavaSE_64e5e8c7"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-UDPChat02<JavaSE_64e5e8c7>",
+            "request": "launch",
+            "mainClass": "netWork.UDPChat02",
+            "projectName": "JavaSE_64e5e8c7"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-UDPDemo01<JavaSE_64e5e8c7>",
+            "request": "launch",
+            "mainClass": "netWork.UDPDemo01",
+            "projectName": "JavaSE_64e5e8c7"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-UDPDemo02<JavaSE_64e5e8c7>",
+            "request": "launch",
+            "mainClass": "netWork.UDPDemo02",
+            "projectName": "JavaSE_64e5e8c7"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-client01<JavaSE_64e5e8c7>",
+            "request": "launch",
+            "mainClass": "netWork.client01",
+            "projectName": "JavaSE_64e5e8c7"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-servlet01<JavaSE_64e5e8c7>",
+            "request": "launch",
+            "mainClass": "netWork.servlet01",
+            "projectName": "JavaSE_64e5e8c7"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Application<JavaSE_64e5e8c7>",
+            "request": "launch",
+            "mainClass": "oop.Application",
+            "projectName": "JavaSE_64e5e8c7"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Application<JavaSE_64e5e8c7>(1)",
+            "request": "launch",
+            "mainClass": "oop.构造器.Application",
+            "projectName": "JavaSE_64e5e8c7"
+        }
+    ]
+}
