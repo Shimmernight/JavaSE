@@ -1,7 +1,8 @@
 package Thread.Lambda;
 
 /**
- * Lambda表达式 JDK1.8出现 利用Lambda表达式简化代码
+ * Lambda表达式 JDK1.8出现 
+ * //TODO利用Lambda表达式简化代码
  */
 
 interface Happy {// 函数式接口（只有一个方法）

@@ -1,6 +1,6 @@
 package Thread.state;
 
-/*TODO测试stop
+/*TODO结束线程
    1.建议线程正常停止 --> 利用次数，不建议死循环
    2.建议使用标志位 --> 设置一个标志
    3.不要使用stop或者destroy等JDK不建议的方法

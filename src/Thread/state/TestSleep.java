@@ -3,8 +3,8 @@ package Thread.state;
 import java.sql.Date;
 import java.text.SimpleDateFormat;
 
-//模拟网络延时
-//做倒计时
+//TODO模拟网络延时
+//TODO做倒计时
 class TestSleep {
     public static void main(String[] args) {
         // 打印系统当前时间
