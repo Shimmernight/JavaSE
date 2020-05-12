@@ -2,7 +2,7 @@ package Thread.state;
 
 //TODO设置守护线程
 //虚拟机不管守护线程是否在运行
-public class TestC {
+public class TestDaemon {
     public static void main(String[] args) {
         Thread God = new Thread(() -> {
             while (true) {

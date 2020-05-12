@@ -1,9 +1,10 @@
-package Thread;
+package Thread.Demo;
 
-import org.apache.commons.io.FileUtils;
 import java.io.File;
 import java.io.IOException;
 import java.net.URL;
+
+import org.apache.commons.io.FileUtils;
 
 /**
  * 练习多线程，实现多线程同步下载

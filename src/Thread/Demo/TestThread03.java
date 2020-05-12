@@ -1,4 +1,4 @@
-package Thread;
+package Thread.Demo;
 
 /**
  * 创建线程方法2(推荐)： 实现Runnable,重写run()方法，通过new Thread(实现类).start调用

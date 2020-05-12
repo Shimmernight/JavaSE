@@ -1,4 +1,4 @@
-package Thread;
+package Thread.Demo;
 
 /**
  * 龟兔赛跑

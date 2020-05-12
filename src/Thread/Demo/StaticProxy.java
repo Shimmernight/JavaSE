@@ -1,4 +1,4 @@
-package Thread;
+package Thread.Demo;
 
 /**
  * @静态代理 以结婚为例

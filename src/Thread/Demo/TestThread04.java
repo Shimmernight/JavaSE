@@ -1,4 +1,4 @@
-package Thread;
+package Thread.Demo;
 
 /**
  * 多个线程操作同一个对象

@@ -1,4 +1,4 @@
-package Thread;
+package Thread.Demo;
 
 /**
  * 创建线程方法1(不推荐)：
