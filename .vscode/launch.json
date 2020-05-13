@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - SafeTicket",
+            "request": "launch",
+            "mainClass": "Thread.syn.SafeTicket",
+            "projectName": "JavaSE_132b225d"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - UnsafeList",
+            "request": "launch",
+            "mainClass": "Thread.syn.UnsafeList",
+            "projectName": "JavaSE_132b225d"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - UnsafeBank",
+            "request": "launch",
+            "mainClass": "Thread.syn.UnsafeBank",
+            "projectName": "JavaSE_132b225d"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - TestStop",
             "request": "launch",
             "mainClass": "Thread.state.TestStop",
